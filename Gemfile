@@ -48,5 +48,6 @@ gem 'rails_12factor', group: :production
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'coupon_code', '0.0.2'
+gem 'newrelic_rpm'
 
 ruby '2.2.5'
