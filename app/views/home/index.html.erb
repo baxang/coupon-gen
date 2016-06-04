@@ -1,2 +1,11 @@
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+<h1>Coupon code generator</h1>
+
+<p>Randomly generated <%= codes.count %> codes:</p>
+
+<% codes.each do |code| %>
+<code><%= code %></code>
+<% end %>
+
+<hr/>
+
+<p>Powered by <%= link_to 'coupon-code gem', 'https://rubygems.org/gems/coupon_code' %></p>
