@@ -1,6 +1,6 @@
 class HomeController < ApplicationController
   def index
-    render locals: { codes: codes }
+    render locals: { codes: codes, campaign: Campaign.new }
   end
 
   private
