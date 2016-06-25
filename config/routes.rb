@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
-  resources :campaigns, only: [:create, :show]
+
+  resources :campaigns, only: [:create, :show, :redeem_code] do
+    put 'redeem_code', on: :member
+  end
 
   root 'home#index'
 
