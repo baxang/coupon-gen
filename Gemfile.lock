@@ -84,7 +84,7 @@ GEM
     nokogiri (1.6.8)
       mini_portile2 (~> 2.1.0)
       pkg-config (~> 1.1.7)
-    pg (0.18.4)
+    pg (1.2.2)
     pkg-config (1.1.7)
     puma (3.4.0)
     rack (2.0.0.rc1)
@@ -170,7 +170,7 @@ DEPENDENCIES
   jquery-rails
   listen (~> 3.0.5)
   newrelic_rpm
-  pg (~> 0.18)
+  pg (~> 1.2)
   puma (~> 3.0)
   rails (>= 5.0.0.rc2, < 5.1)
   rails_12factor
