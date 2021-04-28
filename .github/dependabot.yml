@@ -1,0 +1,15 @@
+version: 2
+updates:
+- package-ecosystem: bundler
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "19:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: newrelic_rpm
+    versions:
+    - 6.15.0
+  - dependency-name: loofah
+    versions:
+    - 2.9.0
